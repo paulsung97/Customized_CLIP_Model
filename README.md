@@ -31,4 +31,10 @@ This architecture utilizes the VIT-B 32 model from the CLIP model to extract tex
     $ python image_search.py
     ```
    The script will extract the most similar image from the images directory based on the input text and save it to the output file.
+
+6. Run the script for cosine similarity:
+    ```
+    $ python cos.py
+    ```
+   The script provides a visual representation of the cosine similarity of images and text in the output file.
 ```
